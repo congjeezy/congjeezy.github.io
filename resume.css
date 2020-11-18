@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 180px;
+  padding-left: 100px;
   /*trying to pad left but main content still stuck behind "contact"*/
   
 }
