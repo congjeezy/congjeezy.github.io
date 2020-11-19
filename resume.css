@@ -4,7 +4,6 @@ body {
   background-image: url("https://i.redd.it/julflla6v0061.jpg");
   background-size: 100%vh, 100%;
   background-repeat: no-repeat;
-  
 }
 
 .container {
@@ -15,7 +14,6 @@ body {
   position: relative;
   margin-left: 180px;
   color: white;
-  
 }
 
 .video {
