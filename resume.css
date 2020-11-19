@@ -1,13 +1,13 @@
 body {
   font-family: sans-serif;
   width: 100%;
+  background-image: url("https://i.redd.it/julflla6v0061.jpg");
+  background-size: 100%vh, 100%;
+  background-repeat: no-repeat;
   
 }
 
 .container {
-  background-image: url("https://i.redd.it/julflla6v0061.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   
 }
 
@@ -26,6 +26,7 @@ body {
   padding:5px;
 }
 
+/*javascript options*/
 #video {
   
 }
