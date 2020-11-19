@@ -1,22 +1,41 @@
 body {
   font-family: sans-serif;
-  margin: 100px;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 100px;
-  /*trying to pad left but main content still stuck behind "contact"*/
   
 }
 
+.container {
+  background-image: url("https://i.redd.it/julflla6v0061.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
 
+.content {
+  position: relative;
+  margin-left: 180px;
+  color: white;
+  
+}
+
+.video {
+  position: fixed;
+  left: 0;
+  bottom:0;
+  max-width:170px;
+  padding:5px;
+}
+
+#video {
+  
+}
+
+/*targets "contact" and creates a pseudo sidebar*/
 .contact {
   color: white;
   padding-left: 10px;
   height: 100%;
-  width: 180px;
+  width: 170px;
   position: fixed;
   z-index: 0;
   top: 0;
@@ -34,4 +53,8 @@ body {
 /*Targets anchor elements in "contact" and changes color on mouse hover*/
 .contact a:hover {
 color: #f1f1f1;
+}
+
+.education{
+  
 }
